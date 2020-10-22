@@ -7,7 +7,7 @@ const getTodos = async (req: Request, res: Response): Promise<void> => {
         const todos: ITodo[] = await Todo.find()
         res.status(200).json({ todos })
     } catch (error) {
-        throw error
+        res.status(500).json({message: "Error Happened", error: error.toString()})
     }
 }
 
@@ -28,7 +28,7 @@ const addTodo = async (req: Request, res: Response): Promise<void> => {
             .status(201)
             .json({ message: "Todo added", todo: newTodo, todos: allTodos })
     } catch (error) {
-        throw error
+        res.status(500).json({message: "Error happened", error: error.toString()})
     }
 }
 
@@ -49,7 +49,7 @@ const updateTodo = async (req: Request, res: Response): Promise<void> => {
             todos: allTodos,
         })
     } catch (error) {
-        throw error
+        res.status(500).json({message: "Error happened", error: error.toString()})
     }
 }
 
@@ -65,7 +65,7 @@ const deleteTodo = async (req: Request, res: Response): Promise<void> => {
             todos: allTodos,
         })
     } catch (error) {
-        throw error
+        res.status(500).json({message: "Error happened", error: error.toString()})
     }
 }
 

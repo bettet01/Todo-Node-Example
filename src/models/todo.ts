@@ -1,22 +1,24 @@
-import {ITodo} from '../types/ITodo'
-import {model, Schema} from "mongoose";
+import { ITodo } from "../types/ITodo"
+import { model, Schema } from "mongoose"
 
-const todoSchema: Schema = new Schema<ITodo>(
+const todoSchema: Schema = new Schema(
     {
         name: {
             type: String,
-            required: true
+            required: true,
         },
+
         description: {
             type: String,
-            required: true
+            required: true,
         },
+
         status: {
-            type: String,
-            required: true
+            type: Boolean,
+            required: true,
         },
     },
-    {timestamps: true}
+    { timestamps: true }
 )
 
-export default model<ITodo>("Todo", todoSchema);
+export default model<ITodo>("Todo", todoSchema)

@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffaf9fee-0b56-4692-b92f-0574263d50e4" name="Default Changelist" comment="" />
+    <list default="true" id="ffaf9fee-0b56-4692-b92f-0574263d50e4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/todo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/todo.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/todoService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/todoService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/ITodo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/ITodo.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1j4oiQuYh4pznAILdReWFFiwf7f" />
   <component name="ProjectViewState">
@@ -15,6 +25,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="terminal" />
     <property name="ts.external.directory.path" value="C:\Users\bette\WebstormProjects\todo-app\node_modules\typescript\lib" />
@@ -29,7 +41,9 @@
       <option name="presentableId" value="Default" />
       <updated>1603072852483</updated>
       <workItem from="1603072854076" duration="735000" />
-      <workItem from="1603128768269" duration="910000" />
+      <workItem from="1603128768269" duration="14837000" />
+      <workItem from="1603247407311" duration="599000" />
+      <workItem from="1603321704185" duration="2059000" />
     </task>
     <servers />
   </component>
@@ -41,5 +55,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="161" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1603073105627" />
+    <state x="528" y="318" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1603137014407">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="528" y="318" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1603137014407" />
+    <state x="431" y="145" key="search.everywhere.popup" timestamp="1603136929782">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1603136929782" />
   </component>
 </project>
